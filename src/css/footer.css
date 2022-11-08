@@ -1,0 +1,79 @@
+footer {
+    width: 100%;
+    height: 135px;
+    background: #3e3a39;
+    min-width: 1280px;
+}
+
+footer div.f_width {
+    width: 1280px;
+    height: 135px;
+    margin: auto;
+}
+
+footer div.f_logo {
+    float: left;
+    width: 49%;
+    height: 135px;
+}
+
+footer div.f_logo div.logo1 {
+    float: left;
+    width: 34%;
+    height: 104px;
+    padding-top: 35px;
+}
+
+footer div.f_logo div.logo2 {
+    float: left;
+    width: 66%;
+    height: 104px;
+    padding-top: 45px;
+}
+
+footer div.f_add {
+    float: left;
+    width: 51%;
+    height: 135px;
+}
+
+footer div.f_add div.add {
+    float: right;
+    width: 100%;
+    height: 80px;
+    padding-top: 30px;
+    padding-left: 8px;
+    font-size: 12px;
+    font-weight: lighter;
+    color: #8c9091;
+    white-space: pre;
+}
+
+footer div.f_add div.f_link {
+    width: 100%;
+    height: 55px;
+}
+
+footer div.f_add div.f_link div.agree {
+    float: left;
+    width: 69%;
+    height: 55px;
+    padding-left: 8px;
+    padding-top: 10px;
+    white-space: pre;
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+footer div.f_add div.f_link div.sns {
+    float: right;
+    width: 31%;
+    height: 55px;
+}
+
+footer div.f_add div.f_link div.sns img.sns_bt {
+    float: left;
+    width: 40px;
+    padding-left: 8px;
+}
