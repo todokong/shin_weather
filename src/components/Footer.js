@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import "../css/footer.css";
 
 const Footer = () => {
-  console.log("App");
+  console.log("Footer");
 
   return (
     <footer>
@@ -10,12 +10,18 @@ const Footer = () => {
         <div className="f_logo">
           <div className="logo1">
             <a href="/">
-              <img src="https://weather.kweather.co.kr/assets/img/components/footer/f_logo.png"></img>
+              <img
+                src={require("../img/components/footer/f_logo.png")}
+                alt="케이웨더"
+              ></img>
             </a>
           </div>
           <div className="logo2">
             <a href="/">
-              <img src="https://weather.kweather.co.kr/assets/img/components/footer/f_logo_weather.png"></img>
+              <img
+                src={require("../img/components/footer/f_logo_weather.png")}
+                alt="케이웨더 날씨와 미세먼지"
+              ></img>
             </a>
           </div>
         </div>

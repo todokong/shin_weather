@@ -3,7 +3,7 @@ import Home from "./routes/Home";
 import Header from "./components/Header";
 import Nav from "./components/Nav";
 import Footer from "./components/Footer";
-import "./css/main.css";
+import "./css/global.css";
 // import Detail from "./routes/Detail";
 
 function App() {
